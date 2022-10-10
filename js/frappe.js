@@ -79,7 +79,7 @@ const buildChart = async () => {
 
   const chartData = {
     labels: year,
-    datasets: [{ values: info.reverse() }] //discussion with Mäntymäki
+    datasets: [{ values: info }] //discussion with Mäntymäki
   };
   const chart = new Chart("#chart", {
     data: chartData,
