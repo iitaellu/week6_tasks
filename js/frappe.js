@@ -84,7 +84,7 @@ const buildChart = async () => {
   const chart = new Chart("#chart", {
     data: chartData,
     type: "line",
-    high: 450,
+    height: 450,
     colors: ["#eb5146"]
   });
 
